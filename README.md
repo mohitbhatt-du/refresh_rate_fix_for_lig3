@@ -42,5 +42,6 @@ Like - *ctrl + numpad 1 for 120hz and ctrl + numpad 2 for 60hz*.
 - Ram: 16 GB
 - OS: Windows 11
 
-Same can be done for Intel variant but you have to check display specs from other tools or software.
-**I hope it worked for you.**
+**Same can be done for Intel variant but you have to check display specs from other tools or software.** 
+
+*I hope it works for you.*
