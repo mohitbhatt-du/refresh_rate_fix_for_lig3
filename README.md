@@ -13,7 +13,7 @@ To check display specification, right click on your desktop and click amd softwa
 Here you can see FreeSync Range is 48 to 120hz, that means your display supports refresh rate under 120hz , if this doesn't show that means your display have fix refresh rate i.e 120hz.
 
 ### Step - 2: Now download a software called [ Custom Resolution Utility](https://www.monitortests.com/download/cru/cru-1.5.2.zip).
-Run the software and you will see your current display refresh rate. click on add and enter your display specs and set it to 60hz. Don't forget to add exact values of Disply, Front porch, Sync width, Polarity and Total as shown in amd software.
+Run the software and you will see your current display refresh rate. click on add and enter your display specs and set it to 60hz. Don't forget to add exact values of Display, Front porch, Sync width, Polarity and Total as shown in amd software.
 
 ![CRU](/images/cru-set.png)
 
