@@ -19,8 +19,27 @@ Run the software and you will see your current display refresh rate. click on ad
 
 Now click ok and restart your Laptop. You will see 60hz option is added to the display settings.
 
-![Display Settings](/images/60hz-option.png)
+![Display Manager](/images/60hz-option.png)
 
 Click on 60hz and your refresh rate will be set to 60hz. To check 60hz is working you can test it on any online refresh rate checking sites. 
 
-**Note** - If you are getting distortion or lines on your display, then take a hdmi cable and connect the laptop to external monitor and set the refresh rate back to 120hz then check again if their is any detail you missed.
+**Note** - If you are getting distortion or lines on your display, then take a hdmi cable and connect the laptop to external monitor and set the refresh rate back to 120hz then check again if their is any detail you missed. however it reversed to 120hz after 10 seconds.
+
+## Method to switch quickly 120hz to 60hz and vice-versa.
+
+Install [ HRC (Hotkey Resolution Changer) ](https://funk.eu/wp-content/plugins/download-monitor/download.php?id=167).
+After running the software you will see your resolutions i.e 120hz and 60hz , set your desire shortcut key for both resolutions.
+Like - *ctrl + numpad 1 for 120hz and ctrl + numpad 2 for 60hz*.
+
+![HRC](/images/hrc.png)
+
+### Tested on AMD variant of Lenovo IG 3
+
+### My system specs:
+- Model: Lenovo Ideapad Gaming 3 (AMD)
+- CPU: AMD Ryzen 5600H 
+- Graphic: Nvidia gtx 1650
+- Ram: 16 GB
+- OS: Windows 11
+
+**I hope it worked for you.**
