@@ -23,6 +23,8 @@ Now click ok and restart your Laptop. You will see 60hz option is added to the d
 
 Click on 60hz and your refresh rate will be set to 60hz. To check 60hz is working you can test it on any online refresh rate checking sites. 
 
+![Display Manager](/images/60hz.png)
+
 **Note** - If you are getting distortion or lines on your display, then take a hdmi cable and connect the laptop to external monitor and set the refresh rate back to 120hz then check again if their is any detail you missed. however it reversed to 120hz after 10 seconds.
 
 ## Method to switch quickly 120hz to 60hz and vice-versa.
