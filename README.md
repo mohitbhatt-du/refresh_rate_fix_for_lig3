@@ -6,7 +6,7 @@
 Refresh rate fix for lenovo ideapad gaming 3 , it has an issue that 120hz is the only option for refresh rate where user cannot change it to 60hz in order to save battery.
 
 ### Step - 1: Check your display specification.
-To check display specification, right click on your desktop and click amd software and then go to display -> display specs.
+To check display specification, right click on your desktop, click on amd software and then go to display -> display specs.
 
 ![Display Specs](/images/display-specs.png)
 
