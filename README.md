@@ -44,6 +44,6 @@ Like - *ctrl + numpad 1 for 120hz and ctrl + numpad 2 for 60hz*.
 - Ram: 16 GB
 - OS: Windows 11
 
-**Same can be done for Intel variant but you have to check display specs from other tools or software.** 
+**Intel users refer this issue it will help - [Click Here](https://github.com/mohitbhatt-du/refresh_rate_fix_for_lig3/issues/1)**
 
 *I hope it works for you.*
