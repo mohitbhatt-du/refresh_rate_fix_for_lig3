@@ -1,49 +1,50 @@
-# Fix for missing option of 60hz refresh rate in Ideapad Gaming 3
+# Fix for Missing 60Hz Refresh Rate on Lenovo IdeaPad Gaming 3
 
-![Lenovo Ideapad Gaming 3 Image](/images/laptop_img.png)
+![Lenovo IdeaPad Gaming 3](images/laptop_img.png)
 
-## Issue Description: 
-Refresh rate fix for lenovo ideapad gaming 3 , it has an issue that 120hz is the only option for refresh rate where user cannot change it to 60hz in order to save battery.
+## Issue Description
+The Lenovo IdeaPad Gaming 3 typically defaults to a 120Hz refresh rate, with no option to switch to 60Hz. This can be inconvenient if you want to save battery life.
 
-### Step - 1: Check your display specification.
-To check display specification, right click on your desktop, click on amd software and then go to display -> display specs.
+### Step 1: Check Your Display Specifications
+To verify your display specifications, right-click on your desktop and select **AMD Software**, then navigate to **Display** > **Display Specs**.
 
-![Display Specs](/images/display-specs.png)
+![Display Specs](images/display-specs.png)
 
-Here you can see FreeSync Range is 48 to 120hz, that means your display supports refresh rate under 120hz , if this doesn't show that means your display have fix refresh rate i.e 120hz.
+Here, you should see the FreeSync Range listed as 48 to 120Hz, indicating that your display supports refresh rates below 120Hz. If this range isn’t displayed, your monitor may have a fixed refresh rate of 120Hz.
 
-### Step - 2: Now download a software called [ Custom Resolution Utility](https://www.monitortests.com/download/cru/cru-1.5.2.zip).
-Run the software and you will see your current display refresh rate. click on add and enter your display specs and set it to 60hz. Don't forget to add exact values of Display, Front porch, Sync width, Polarity and Total as shown in amd software.
+### Step 2: Download Custom Resolution Utility
+Download the [Custom Resolution Utility (CRU)](https://www.monitortests.com/download/cru/cru-1.5.2.zip). 
 
-![CRU](/images/cru-set.png)
+Run the software, and you will see your current display refresh rate. Click on **Add**, and enter your display specifications to set it to 60Hz. Make sure to input the exact values for Display, Front Porch, Sync Width, Polarity, and Total as shown in AMD Software.
 
-Now click ok and restart your Laptop. You will see 60hz option is added to the display settings.
+![CRU](images/cru-set.png)
 
-![Display Manager](/images/60hz-option.png)
+After entering the details, click **OK** and restart your laptop. You should now see the 60Hz option in your display settings.
 
-Click on 60hz and your refresh rate will be set to 60hz. To check 60hz is working you can test it on any online refresh rate checking sites. 
+![Display Manager](images/60hz-option.png)
 
-![Display Manager](/images/60hz.png)
+Select **60Hz**, and you can verify that it’s working using any online refresh rate checker.
 
-**Note** - If you are getting distortion or lines on your display, then take a hdmi cable and connect the laptop to external monitor and set the refresh rate back to 120hz then check again if their is any detail you missed. however it reversed to 120hz after 10 seconds.
+![Refresh Rate Check](images/60hz.png)
 
-## Method to switch quickly 120hz to 60hz and vice-versa.
+**Note**: If you experience distortion or lines on your display, connect your laptop to an external monitor using an HDMI cable and revert the refresh rate back to 120Hz. Make sure to check if you missed any details, but note that it will revert to 120Hz after 10 seconds.
 
-Install [ HRC (Hotkey Resolution Changer) ](https://funk.eu/wp-content/plugins/download-monitor/download.php?id=167).
-After running the software you will see your resolutions i.e 120hz and 60hz , set your desire shortcut key for both resolutions.
-Like - *ctrl + numpad 1 for 120hz and ctrl + numpad 2 for 60hz*.
+### Quick Switch Method Between 120Hz and 60Hz
+To quickly switch between 120Hz and 60Hz, install [Hotkey Resolution Changer (HRC)](https://funk.eu/wp-content/plugins/download-monitor/download.php?id=167).
 
-![HRC](/images/hrc.png)
+Once installed, open the software to view your available resolutions (120Hz and 60Hz). Set your desired shortcut keys for both resolutions, such as *Ctrl + Numpad 1* for 120Hz and *Ctrl + Numpad 2* for 60Hz.
 
-### Tested on AMD variant of Lenovo IG 3
+![HRC](images/hrc.png)
 
-### My system specs:
-- Model: Lenovo Ideapad Gaming 3 (AMD)
-- CPU: AMD Ryzen 5600H 
-- Graphic: Nvidia gtx 1650
-- Ram: 16 GB
-- OS: Windows 11
+### Tested on the AMD Variant of Lenovo IdeaPad Gaming 3
 
-**Intel users refer this issue it will help - [Click Here](https://github.com/mohitbhatt-du/refresh_rate_fix_for_lig3/issues/1)**
+### My System Specifications:
+- **Model**: Lenovo IdeaPad Gaming 3 (AMD)
+- **CPU**: AMD Ryzen 5600H
+- **Graphics**: Nvidia GTX 1650
+- **RAM**: 16 GB
+- **OS**: Windows 11
 
-*I hope it works for you.*
+**For Intel Users**: Refer to this issue for additional help - [Click Here](https://github.com/mohitbhatt-du/refresh_rate_fix_for_lig3/issues/1).
+
+*I hope this guide works for you!*
